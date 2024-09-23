@@ -1,0 +1,60 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    position: relative;
+    top: 150px;
+    font-weight: 900;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+
+.canva {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: baseline;
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+    :hover{
+        transition: all .4s ease;
+        transform:  scale(1.2);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+    }
+}
+
+.color {
+
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    border: solid 4px;
+    border-radius: 0% 0%;
+}
+
+#red {
+    background-color: #48CFCB;
+}
+
+#gold {
+    background-color:gold;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#green {
+    background-color: #603F26;
+}
+
+#blue {
+    background-color: #F05A7E;
+}
